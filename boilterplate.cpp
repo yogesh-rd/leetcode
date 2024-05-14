@@ -1,3 +1,4 @@
+#include <cstring>
 #include <iostream>
 #include <map>
 #include <numeric>
@@ -7,9 +8,11 @@
 #include <string>
 #include <vector>
 
-#pragma GCC optimize("Ofast", "unroll-loops,inline")
-
 using namespace std;
+
+#define endl '\n'
+
+#pragma GCC optimize("O3", "unroll-loops,inline")
 
 static const bool __boost = []() {
   std::cin.tie(nullptr);
